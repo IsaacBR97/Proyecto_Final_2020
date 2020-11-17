@@ -39,8 +39,18 @@ Route::get('supervisor/tablero', function() {
     //buscara el archivo 'tablero.php' o 'tablero.blade.php' dentro de resoureces/views/supervisor
 });
 
-Route::post('validar','AutenticarController@validar');
-Route::resource('/welcome','WelcomeController');
+
+/////////////////////////////////Rutas agregada por kike///////////////////////////////////////////
+//carpeta vendedor/productos
+//Route::resource('productos',productosController::class);
+//Route::get('editar', 'productosController@edit'); //solo es temporal 
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+//Route::post('validar','AutenticarController@validar');
+//Route::resource('/welcome','WelcomeController');
+
 
 //////////////////////////////////////////////////Antiguas rutas////////////////////////////////////////////////////
 
