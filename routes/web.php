@@ -39,6 +39,11 @@ Route::get('supervisor/tablero', function() {
     //buscara el archivo 'tablero.php' o 'tablero.blade.php' dentro de resoureces/views/supervisor
 });
 
+/////////////////////////////////Rutas agregada por kike///////////////////////////////////////////
+//carpeta vendedor/productos
+Route::resource('productos',productosController::class);
+Route::get('editar', 'productosController@edit'); //solo es temporal 
+/////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
