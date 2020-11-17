@@ -42,7 +42,7 @@ Route::get('supervisor/tablero', function() {
 /////////////////////////////////Rutas agregada por kike///////////////////////////////////////////
 //carpeta vendedor/productos
 Route::resource('productos',productosController::class);
-Route::get('editar', 'productosController@edit'); //solo es temporal 
+//Route::get('editar', 'productosController@edit'); //solo es temporal 
 /////////////////////////////////////////////////////////////////////////////////////////////
 
 
