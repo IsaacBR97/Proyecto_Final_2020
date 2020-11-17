@@ -39,8 +39,8 @@ Route::get('supervisor/tablero', function() {
     //buscara el archivo 'tablero.php' o 'tablero.blade.php' dentro de resoureces/views/supervisor
 });
 
-
-
+Route::post('validar','AutenticarController@validar');
+Route::resource('/welcome','WelcomeController');
 
 //////////////////////////////////////////////////Antiguas rutas////////////////////////////////////////////////////
 
